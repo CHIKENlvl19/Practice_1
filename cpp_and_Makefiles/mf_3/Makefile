@@ -3,7 +3,7 @@ SRC = wassup.cpp
 CXXFLAGS = -Wall -Wextra -g3 -std=c++17
 
 $(TARGET): %.o
-	@echo "Линовка (компоновка) проекта..."
+	@echo "Линковка (компоновка) проекта..."
 	g++ wassup.o -o $(TARGET)
 	@echo "Готово!"
 	@echo
